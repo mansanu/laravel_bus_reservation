@@ -1,0 +1,15 @@
+ 
+<?php $__env->startSection('content'); ?>
+    <h2>Buses</h2>
+ 
+    <?php if( !$buses->count() ): ?>
+        You have no buses
+    <?php else: ?>
+        <ul>
+            <?php foreach( $buses as $bus ): ?>
+                <li><a href="<?php echo e(route('buses.show', $bus->id)); ?>"><?php echo e($bus->bus_reg_no); ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+    <?php endif; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

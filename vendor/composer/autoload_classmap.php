@@ -6,9 +6,18 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
-    'CreateTableBuses' => $baseDir . '/database/migrations/2015_03_07_025513_create_table_buses.php',
-    'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
+    'CreateBusesTable' => $baseDir . '/database/migrations/2015_03_07_163925_create_buses_table.php',
+    'CreateCitiesTable' => $baseDir . '/database/migrations/2015_03_07_171737_create_cities_table.php',
+    'CreatePassengersTable' => $baseDir . '/database/migrations/2015_03_07_170717_create_passengers_table.php',
+    'CreatePurchaseDetailsTable' => $baseDir . '/database/migrations/2015_03_07_170229_create_purchase_details_table.php',
+    'CreateReservationDetailsTable' => $baseDir . '/database/migrations/2015_03_07_165748_create_reservation_details_table.php',
+    'CreateRoutesTable' => $baseDir . '/database/migrations/2015_03_07_171811_create_routes_table.php',
+    'CreateTableBus' => $baseDir . '/database/migrations/2015_03_07_103906_create_table_bus.php',
+    'CreateTableCities' => $baseDir . '/database/migrations/2015_03_07_105859_create_table_cities.php',
+    'CreateTablePassenger' => $baseDir . '/database/migrations/2015_03_07_110146_create_table_passenger.php',
+    'CreateTablePurchaseDetail' => $baseDir . '/database/migrations/2015_03_07_110950_create_table_purchase_detail.php',
+    'CreateTableReservationDetail' => $baseDir . '/database/migrations/2015_03_07_113101_create_table_reservation_detail.php',
+    'CreateTravelDetailsTable' => $baseDir . '/database/migrations/2015_03_07_164718_create_travel_details_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/File/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/File/Iterator/Facade.php',

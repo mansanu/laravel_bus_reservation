@@ -414,12 +414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "31b0905a96b530ec2bf1db73f962a64c4016176a"
+                "reference": "fbd0cdcbc536c4f280488528746b938157cecbc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/31b0905a96b530ec2bf1db73f962a64c4016176a",
-                "reference": "31b0905a96b530ec2bf1db73f962a64c4016176a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/fbd0cdcbc536c4f280488528746b938157cecbc5",
+                "reference": "fbd0cdcbc536c4f280488528746b938157cecbc5",
                 "shasum": ""
             },
             "require": {
@@ -531,7 +531,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-03-05 17:56:46"
+            "time": "2015-03-07 03:19:14"
         },
         {
             "name": "league/flysystem",
@@ -992,12 +992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "f9ee7f03c1af5e6cf59e2270ac3b8ed7f47e2158"
+                "reference": "4683e9573249a5c2993fc5808a98f95317efc431"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/f9ee7f03c1af5e6cf59e2270ac3b8ed7f47e2158",
-                "reference": "f9ee7f03c1af5e6cf59e2270ac3b8ed7f47e2158",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/4683e9573249a5c2993fc5808a98f95317efc431",
+                "reference": "4683e9573249a5c2993fc5808a98f95317efc431",
                 "shasum": ""
             },
             "require": {
@@ -1041,7 +1041,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2015-02-24 12:09:34"
+            "time": "2015-03-07 07:43:00"
         },
         {
             "name": "symfony/debug",
@@ -1320,12 +1320,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "11e6c483d171914f908fbd76d0179b2e988e6779"
+                "reference": "734bfd289a2b593455e307f40a6a91e95af70d65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/11e6c483d171914f908fbd76d0179b2e988e6779",
-                "reference": "11e6c483d171914f908fbd76d0179b2e988e6779",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/734bfd289a2b593455e307f40a6a91e95af70d65",
+                "reference": "734bfd289a2b593455e307f40a6a91e95af70d65",
                 "shasum": ""
             },
             "require": {
@@ -1389,7 +1389,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2015-02-25 12:51:44"
+            "time": "2015-03-07 07:43:00"
         },
         {
             "name": "symfony/process",
@@ -1517,12 +1517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "045964fddd383a25b40d6a4bd4b4f60dcb7fa824"
+                "reference": "8ac728ff942ec30a5eaa43ccb91ba7366fa2b06d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/045964fddd383a25b40d6a4bd4b4f60dcb7fa824",
-                "reference": "045964fddd383a25b40d6a4bd4b4f60dcb7fa824",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/8ac728ff942ec30a5eaa43ccb91ba7366fa2b06d",
+                "reference": "8ac728ff942ec30a5eaa43ccb91ba7366fa2b06d",
                 "shasum": ""
             },
             "require": {
@@ -1572,7 +1572,7 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "http://symfony.com",
-            "time": "2015-02-18 10:38:04"
+            "time": "2015-03-07 07:43:00"
         },
         {
             "name": "symfony/translation",
@@ -1581,12 +1581,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
-                "reference": "696ed1fabb92e150c785fddda41e8ff614d93a27"
+                "reference": "4ee3fd7bb0cd08da7fc86b2a212bad48d2b6ee27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Translation/zipball/696ed1fabb92e150c785fddda41e8ff614d93a27",
-                "reference": "696ed1fabb92e150c785fddda41e8ff614d93a27",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/4ee3fd7bb0cd08da7fc86b2a212bad48d2b6ee27",
+                "reference": "4ee3fd7bb0cd08da7fc86b2a212bad48d2b6ee27",
                 "shasum": ""
             },
             "require": {
@@ -1631,7 +1631,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
-            "time": "2015-02-18 10:38:04"
+            "time": "2015-03-07 07:43:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -1640,12 +1640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "6e1aeb472cbc5b229db87983f4ef502996ea0d1f"
+                "reference": "8755b251ba8cadfe9a68a44c4c659728739fecc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6e1aeb472cbc5b229db87983f4ef502996ea0d1f",
-                "reference": "6e1aeb472cbc5b229db87983f4ef502996ea0d1f",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8755b251ba8cadfe9a68a44c4c659728739fecc8",
+                "reference": "8755b251ba8cadfe9a68a44c4c659728739fecc8",
                 "shasum": ""
             },
             "require": {
@@ -1691,7 +1691,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2015-02-25 12:51:44"
+            "time": "2015-03-07 07:43:00"
         },
         {
             "name": "vlucas/phpdotenv",

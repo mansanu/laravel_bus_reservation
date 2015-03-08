@@ -172,66 +172,6 @@
         ]
     },
     {
-        "name": "symfony/console",
-        "version": "2.7.x-dev",
-        "version_normalized": "2.7.9999999.9999999-dev",
-        "target-dir": "Symfony/Component/Console",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/Console.git",
-            "reference": "f9ee7f03c1af5e6cf59e2270ac3b8ed7f47e2158"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Console/zipball/f9ee7f03c1af5e6cf59e2270ac3b8ed7f47e2158",
-            "reference": "f9ee7f03c1af5e6cf59e2270ac3b8ed7f47e2158",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.9"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/event-dispatcher": "~2.1|~3.0.0",
-            "symfony/phpunit-bridge": "~2.7|~3.0.0",
-            "symfony/process": "~2.1|~3.0.0"
-        },
-        "suggest": {
-            "psr/log": "For using the console logger",
-            "symfony/event-dispatcher": "",
-            "symfony/process": ""
-        },
-        "time": "2015-02-24 12:09:34",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.7-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\Console\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony Console Component",
-        "homepage": "http://symfony.com"
-    },
-    {
         "name": "psy/psysh",
         "version": "v0.4.1",
         "version_normalized": "0.4.1.0",
@@ -303,195 +243,6 @@
             "interactive",
             "shell"
         ]
-    },
-    {
-        "name": "symfony/var-dumper",
-        "version": "2.7.x-dev",
-        "version_normalized": "2.7.9999999.9999999-dev",
-        "target-dir": "Symfony/Component/VarDumper",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/var-dumper.git",
-            "reference": "6e1aeb472cbc5b229db87983f4ef502996ea0d1f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6e1aeb472cbc5b229db87983f4ef502996ea0d1f",
-            "reference": "6e1aeb472cbc5b229db87983f4ef502996ea0d1f",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.9"
-        },
-        "require-dev": {
-            "symfony/phpunit-bridge": "~2.7|~3.0.0"
-        },
-        "suggest": {
-            "ext-symfony_debug": ""
-        },
-        "time": "2015-02-25 12:51:44",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.7-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "Resources/functions/dump.php"
-            ],
-            "psr-0": {
-                "Symfony\\Component\\VarDumper\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Nicolas Grekas",
-                "email": "p@tchwork.com"
-            }
-        ],
-        "description": "Symfony mechanism for exploring and dumping PHP variables",
-        "homepage": "http://symfony.com",
-        "keywords": [
-            "debug",
-            "dump"
-        ]
-    },
-    {
-        "name": "symfony/translation",
-        "version": "2.7.x-dev",
-        "version_normalized": "2.7.9999999.9999999-dev",
-        "target-dir": "Symfony/Component/Translation",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/Translation.git",
-            "reference": "696ed1fabb92e150c785fddda41e8ff614d93a27"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Translation/zipball/696ed1fabb92e150c785fddda41e8ff614d93a27",
-            "reference": "696ed1fabb92e150c785fddda41e8ff614d93a27",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.9"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.3,>=2.3.12|~3.0.0",
-            "symfony/intl": "~2.3|~3.0.0",
-            "symfony/phpunit-bridge": "~2.7|~3.0.0",
-            "symfony/yaml": "~2.2|~3.0.0"
-        },
-        "suggest": {
-            "psr/log": "To use logging capability in translator",
-            "symfony/config": "",
-            "symfony/yaml": ""
-        },
-        "time": "2015-02-18 10:38:04",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.7-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\Translation\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony Translation Component",
-        "homepage": "http://symfony.com"
-    },
-    {
-        "name": "symfony/security-core",
-        "version": "2.7.x-dev",
-        "version_normalized": "2.7.9999999.9999999-dev",
-        "target-dir": "Symfony/Component/Security/Core",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/security-core.git",
-            "reference": "045964fddd383a25b40d6a4bd4b4f60dcb7fa824"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/security-core/zipball/045964fddd383a25b40d6a4bd4b4f60dcb7fa824",
-            "reference": "045964fddd383a25b40d6a4bd4b4f60dcb7fa824",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.9"
-        },
-        "require-dev": {
-            "ircmaxell/password-compat": "1.0.*",
-            "psr/log": "~1.0",
-            "symfony/event-dispatcher": "~2.1|~3.0.0",
-            "symfony/expression-language": "~2.6|~3.0.0",
-            "symfony/http-foundation": "~2.4|~3.0.0",
-            "symfony/phpunit-bridge": "~2.7|~3.0.0",
-            "symfony/translation": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/validator": "~2.5,>=2.5.5|~3.0.0"
-        },
-        "suggest": {
-            "ircmaxell/password-compat": "For using the BCrypt password encoder in PHP <5.5",
-            "symfony/event-dispatcher": "",
-            "symfony/expression-language": "For using the expression voter",
-            "symfony/http-foundation": "",
-            "symfony/validator": "For using the user password constraint"
-        },
-        "time": "2015-02-18 10:38:04",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.7-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\Security\\Core\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony Security Component - Core Library",
-        "homepage": "http://symfony.com"
     },
     {
         "name": "symfony/routing",
@@ -833,86 +584,6 @@
             }
         ],
         "description": "Symfony EventDispatcher Component",
-        "homepage": "http://symfony.com"
-    },
-    {
-        "name": "symfony/http-kernel",
-        "version": "2.7.x-dev",
-        "version_normalized": "2.7.9999999.9999999-dev",
-        "target-dir": "Symfony/Component/HttpKernel",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/HttpKernel.git",
-            "reference": "11e6c483d171914f908fbd76d0179b2e988e6779"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/11e6c483d171914f908fbd76d0179b2e988e6779",
-            "reference": "11e6c483d171914f908fbd76d0179b2e988e6779",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.9",
-            "psr/log": "~1.0",
-            "symfony/debug": "~2.6,>=2.6.2|~3.0.0",
-            "symfony/event-dispatcher": "~2.5.9|~2.6,>=2.6.2|~3.0.0",
-            "symfony/http-foundation": "~2.5,>=2.5.4|~3.0.0"
-        },
-        "require-dev": {
-            "symfony/browser-kit": "~2.3|~3.0.0",
-            "symfony/class-loader": "~2.1|~3.0.0",
-            "symfony/config": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/console": "~2.3|~3.0.0",
-            "symfony/css-selector": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/dependency-injection": "~2.2|~3.0.0",
-            "symfony/dom-crawler": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/expression-language": "~2.4|~3.0.0",
-            "symfony/finder": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/phpunit-bridge": "~2.7|~3.0.0",
-            "symfony/process": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/routing": "~2.2|~3.0.0",
-            "symfony/stopwatch": "~2.3|~3.0.0",
-            "symfony/templating": "~2.2|~3.0.0",
-            "symfony/translation": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/var-dumper": "~2.6|~3.0.0"
-        },
-        "suggest": {
-            "symfony/browser-kit": "",
-            "symfony/class-loader": "",
-            "symfony/config": "",
-            "symfony/console": "",
-            "symfony/dependency-injection": "",
-            "symfony/finder": "",
-            "symfony/var-dumper": ""
-        },
-        "time": "2015-02-25 12:51:44",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.7-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\HttpKernel\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony HttpKernel Component",
         "homepage": "http://symfony.com"
     },
     {
@@ -1677,12 +1348,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/laravel/framework.git",
-            "reference": "31b0905a96b530ec2bf1db73f962a64c4016176a"
+            "reference": "fbd0cdcbc536c4f280488528746b938157cecbc5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laravel/framework/zipball/31b0905a96b530ec2bf1db73f962a64c4016176a",
-            "reference": "31b0905a96b530ec2bf1db73f962a64c4016176a",
+            "url": "https://api.github.com/repos/laravel/framework/zipball/fbd0cdcbc536c4f280488528746b938157cecbc5",
+            "reference": "fbd0cdcbc536c4f280488528746b938157cecbc5",
             "shasum": ""
         },
         "require": {
@@ -1761,7 +1432,7 @@
             "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
             "predis/predis": "Required to use the redis cache and queue drivers (~1.0)."
         },
-        "time": "2015-03-05 17:56:46",
+        "time": "2015-03-07 03:19:14",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2897,5 +2568,334 @@
             "testing",
             "tests"
         ]
+    },
+    {
+        "name": "symfony/console",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/Console",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Console.git",
+            "reference": "4683e9573249a5c2993fc5808a98f95317efc431"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Console/zipball/4683e9573249a5c2993fc5808a98f95317efc431",
+            "reference": "4683e9573249a5c2993fc5808a98f95317efc431",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/event-dispatcher": "~2.1|~3.0.0",
+            "symfony/phpunit-bridge": "~2.7|~3.0.0",
+            "symfony/process": "~2.1|~3.0.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/process": ""
+        },
+        "time": "2015-03-07 07:43:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Console\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/var-dumper",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/VarDumper",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/var-dumper.git",
+            "reference": "8755b251ba8cadfe9a68a44c4c659728739fecc8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8755b251ba8cadfe9a68a44c4c659728739fecc8",
+            "reference": "8755b251ba8cadfe9a68a44c4c659728739fecc8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~2.7|~3.0.0"
+        },
+        "suggest": {
+            "ext-symfony_debug": ""
+        },
+        "time": "2015-03-07 07:43:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Resources/functions/dump.php"
+            ],
+            "psr-0": {
+                "Symfony\\Component\\VarDumper\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            }
+        ],
+        "description": "Symfony mechanism for exploring and dumping PHP variables",
+        "homepage": "http://symfony.com",
+        "keywords": [
+            "debug",
+            "dump"
+        ]
+    },
+    {
+        "name": "symfony/translation",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/Translation",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Translation.git",
+            "reference": "4ee3fd7bb0cd08da7fc86b2a212bad48d2b6ee27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Translation/zipball/4ee3fd7bb0cd08da7fc86b2a212bad48d2b6ee27",
+            "reference": "4ee3fd7bb0cd08da7fc86b2a212bad48d2b6ee27",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.3,>=2.3.12|~3.0.0",
+            "symfony/intl": "~2.3|~3.0.0",
+            "symfony/phpunit-bridge": "~2.7|~3.0.0",
+            "symfony/yaml": "~2.2|~3.0.0"
+        },
+        "suggest": {
+            "psr/log": "To use logging capability in translator",
+            "symfony/config": "",
+            "symfony/yaml": ""
+        },
+        "time": "2015-03-07 07:43:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Translation\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony Translation Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/security-core",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/Security/Core",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/security-core.git",
+            "reference": "8ac728ff942ec30a5eaa43ccb91ba7366fa2b06d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/security-core/zipball/8ac728ff942ec30a5eaa43ccb91ba7366fa2b06d",
+            "reference": "8ac728ff942ec30a5eaa43ccb91ba7366fa2b06d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "ircmaxell/password-compat": "1.0.*",
+            "psr/log": "~1.0",
+            "symfony/event-dispatcher": "~2.1|~3.0.0",
+            "symfony/expression-language": "~2.6|~3.0.0",
+            "symfony/http-foundation": "~2.4|~3.0.0",
+            "symfony/phpunit-bridge": "~2.7|~3.0.0",
+            "symfony/translation": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/validator": "~2.5,>=2.5.5|~3.0.0"
+        },
+        "suggest": {
+            "ircmaxell/password-compat": "For using the BCrypt password encoder in PHP <5.5",
+            "symfony/event-dispatcher": "",
+            "symfony/expression-language": "For using the expression voter",
+            "symfony/http-foundation": "",
+            "symfony/validator": "For using the user password constraint"
+        },
+        "time": "2015-03-07 07:43:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Security\\Core\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony Security Component - Core Library",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/http-kernel",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/HttpKernel",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/HttpKernel.git",
+            "reference": "734bfd289a2b593455e307f40a6a91e95af70d65"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/734bfd289a2b593455e307f40a6a91e95af70d65",
+            "reference": "734bfd289a2b593455e307f40a6a91e95af70d65",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "psr/log": "~1.0",
+            "symfony/debug": "~2.6,>=2.6.2|~3.0.0",
+            "symfony/event-dispatcher": "~2.5.9|~2.6,>=2.6.2|~3.0.0",
+            "symfony/http-foundation": "~2.5,>=2.5.4|~3.0.0"
+        },
+        "require-dev": {
+            "symfony/browser-kit": "~2.3|~3.0.0",
+            "symfony/class-loader": "~2.1|~3.0.0",
+            "symfony/config": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/console": "~2.3|~3.0.0",
+            "symfony/css-selector": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/dependency-injection": "~2.2|~3.0.0",
+            "symfony/dom-crawler": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/expression-language": "~2.4|~3.0.0",
+            "symfony/finder": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/phpunit-bridge": "~2.7|~3.0.0",
+            "symfony/process": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/routing": "~2.2|~3.0.0",
+            "symfony/stopwatch": "~2.3|~3.0.0",
+            "symfony/templating": "~2.2|~3.0.0",
+            "symfony/translation": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/var-dumper": "~2.6|~3.0.0"
+        },
+        "suggest": {
+            "symfony/browser-kit": "",
+            "symfony/class-loader": "",
+            "symfony/config": "",
+            "symfony/console": "",
+            "symfony/dependency-injection": "",
+            "symfony/finder": "",
+            "symfony/var-dumper": ""
+        },
+        "time": "2015-03-07 07:43:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\HttpKernel\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony HttpKernel Component",
+        "homepage": "http://symfony.com"
     }
 ]
