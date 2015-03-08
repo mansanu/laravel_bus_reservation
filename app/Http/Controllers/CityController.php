@@ -3,6 +3,8 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Input;
+use Redirect;
 
 class CityController extends Controller
 {
@@ -23,7 +25,9 @@ class CityController extends Controller
      */
     public function create()
     {
-        //
+       City::create(array(
+		"name"=>'fsafas'
+		) );
     }
 
     /**

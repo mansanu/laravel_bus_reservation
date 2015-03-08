@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>Bus Reservation</title>
 
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
@@ -53,6 +53,10 @@
         </div>
     </nav>
 
+	@if (Session::has('message'))
+    <div class="alert alert-info">{{ Session::get('message') }}</div>
+	@endif
+	
     @yield('content')
 
     <!-- Scripts -->

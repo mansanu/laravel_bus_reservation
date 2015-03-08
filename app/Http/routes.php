@@ -11,12 +11,10 @@
 |
 */
 
-Route::get('/', 'BusController@index');
-
 Route::resource('buses', 'BusController');
-//Route::resource('buses.create', 'BusController@create');
-Route::get('/create', 'BusController@create');
-Route::post('/create', 'BusController@store');
+Route::resource('cities', 'CityController');
+Route::get('buses/create', 'BusController@create');
+Route::post('buses/store', 'BusController@store');
 
 Route::controllers([
     'auth' => 'Auth\AuthController',

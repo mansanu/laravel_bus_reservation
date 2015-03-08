@@ -4,6 +4,8 @@ use App\Bus;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Input;
+use Redirect;
 
 class BusController extends Controller
 {
@@ -35,12 +37,14 @@ class BusController extends Controller
      */
     public function store()
     {
-         $bus = new Bus;
-         $bus->bus_reg_no = Input::get('bus_reg_no');
-         $bus->bus_type = Input::get('bus_type');
-		 $bus->bus_max_seat = Input::get('bus_max_seat');
-           
-         $bus->save();
+		Bus::create(array(
+			"bus_reg_no"=>Input::get('bus_reg_no'),
+			"bus_type"=>Input::get('bus_type'),
+			"bus_max_seat"=>Input::get('bus_max_seat'),
+		));
+		
+		return Redirect::route('buses.create')->with('message', 'Bus Added');
+
     }
 
     /**
